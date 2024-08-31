@@ -1,0 +1,11 @@
+linters:
+  enable:
+	- gocritic
+
+# Optional: You can also configure specific settings for gocritic
+linters-settings:
+  gocritic:
+	enabled-checks:
+	  - all
+	disabled-checks:
+	  - commentFormatting
